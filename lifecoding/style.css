@@ -1,0 +1,42 @@
+body.white{
+	background-color: white;
+	color: black; 
+}
+body.black{
+	background-color: black;
+	color: white; 
+}
+#control input{
+	float: right;
+	font-size: 20px;
+	background-color: #415e50;
+	border-style: outset;
+	border-width: 5px;
+	padding: 5px;
+	color: white;
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+h1 {
+	border-bottom : 1px solid ;
+	padding : 30px ;
+}
+nav {
+	width: 300px ;
+	height : 600px ;
+	border-right :1px solid ;
+	float : left ;
+}
+article {
+	padding : 30px ;
+	float : left;
+	width: 800px;
+}
+ol > li {
+	list-style : none ;
+	font-size : 20px;
+}
+
