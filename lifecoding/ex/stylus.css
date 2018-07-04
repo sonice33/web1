@@ -1,0 +1,18 @@
+#cont {
+  overflow: auto;
+}
+#cont h1 a img {
+  width: 300px;
+}
+#cont .small {
+  width: 30%;
+  height: 300px;
+  float: left;
+  background-color: #f00;
+}
+#cont .big {
+  width: 70%;
+  height: 300px;
+  float: left;
+  background-color: #008000;
+}

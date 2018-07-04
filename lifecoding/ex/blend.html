@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .blend{
+            border: 3px dotted;
+            height: 400px;
+            background-color: gray;
+            background-size:cover;
+            background-image: url(http://holotrip.co.kr/wp-content/uploads/2017/06/1_haiyap.jpg);
+            background-blend-mode:darken;
+            transition: background-color 4s;
+        }
+        .blend:hover{
+            background-color: yellow;
+       
+            transition: background-color 4s;
+        }
+        
+        
+/*        rgba  투명도설정가능 */
+        .blend2{
+            margin: 10px;
+            border: 3px solid red;
+            height: 200px;
+            background-color: rgba(33,33,33,0.4);
+            background-size:contain;
+            background-image: url(http://holotrip.co.kr/wp-content/uploads/2017/06/1_haiyap.jpg);
+            background-blend-mode:soft-light;
+            transition: background-color 4s;
+        }
+        .blend2:hover{
+            background-color: rgba(33,33,33,1);
+       
+            transition: background-color 4s;
+        }
+    </style>
+</head>
+<body>
+    <div class="blend">
+    </div>
+    <div class="blend2">
+        
+    </div>
+</body>
+</html>
